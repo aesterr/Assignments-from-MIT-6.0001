@@ -1,0 +1,15 @@
+// trigger file - if you've done problem 9 but no stories are popping up, you
+// should edit this file to contain triggers that will fire on current news
+// stories!
+
+// title trigger named t1
+t1,TITLE,COVID
+
+// description trigger named t2
+t2,DESCRIPTION,cases
+
+// trigger named t3
+t3,AND,t1,t2
+
+// the trigger list contains t1 and t4
+ADD,t3
